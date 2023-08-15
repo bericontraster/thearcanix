@@ -26,7 +26,7 @@ body::-webkit-scrollbar-track {
 
 /* --- HEADER --- */
 .header {
-    height: 70px;
+    height: 60px;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -50,7 +50,7 @@ body::-webkit-scrollbar-track {
 .header_title p {
     text-align: center;
     justify-content: center;
-    margin-top: 17px;
+    margin-top: 11px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-track {
     text-align: center;
 }
 .header_navigation p {
-    margin-top: 20px;
+    margin-top: 14px;
     font-family: 'Poppins', sans-serif;
 }
 .header_navigation a {
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-track {
 /* HEADER BUTTONS */
 .header_buttons {
     width: 300px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 .header_buttons a {
     color: black;
