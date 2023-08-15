@@ -1,0 +1,58 @@
+.main {
+    background-color: black;
+    height: 900px;
+}
+
+/* --- SectionONe --- */
+.sectionOne  {
+    position: relative;
+    top: 50px;
+    height: 350px;
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sectionOne p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+
+/* --- Image Slider --- */
+.imageSlider {
+}
+.imageSlider img {
+    position: absolute;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+/* --- Buttons --- */
+.imageButtons {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nextButton, .prevButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+}
+
+.nextButton {
+    margin-right: 600px;
+}
+
+.prevButton {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.nextButton i {
+    transform: rotate(180deg); /* Flip the right arrow horizontally for a left arrow */
+}

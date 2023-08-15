@@ -2,6 +2,28 @@ body {
     margin: 0;
 }
 
+/* --- HUDE SCROLL BAR --- */
+/* Hide both horizontal and vertical scrollbars */
+body::-webkit-scrollbar {
+    width: 0em; /* Adjust as needed */
+    height: 0em; /* Adjust as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Transparent thumb */
+}
+
+/* Optional: Add styles for when hovering over the scrollbar area */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Add styles for the scrollbar track */
+body::-webkit-scrollbar-track {
+    background-color: transparent; /* Transparent track */
+}
+
+
 /* --- HEADER --- */
 .header {
     height: 70px;
@@ -21,7 +43,7 @@ body {
     width: 300px;
 }
 .header_title a {
-    color: #ff6347;
+    color: white;
     font-size: 30px;
     text-decoration: none;
 }
@@ -44,16 +66,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .header_navigation a {
-    color: black;
+    color: white;
+    font-size: 20px;
     text-decoration: none;
-    transition: 0.2s;
-    padding: 5px 30px;
-    background-color: white;
+    transition:  0.2s linear;
+    padding: 5px 20px;
+    border-bottom: 1px solid black;
 }
 
 .header_navigation a:hover {
-    padding: 5px 25px;
-    box-shadow: -5px 5px yellowgreen;
+    border-bottom: 2px solid red;
 }
 
 /* HEADER BUTTONS */

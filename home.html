@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- FONT LINKING -->
+        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Poppins&family=Roboto&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+        <!-- LINKING CSS -->
+        <link href="../css/headerFooter.css" rel="stylesheet" type="text/css">
+        <link href="../css/mainHome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+        <!-- WEBSITE  -->
+        <title> Arcanix </title>
+        <link rel="icon" type="image/x-icon" href="../media/arcanix_favicon.png">
+    </head>
+
+    <body>
+        
+        
+
+        <!-- HEADER -->
+        <div class="header_section">
+            <header class="header"> 
+                <!-- TITLE -->
+                <diV class="header_title">
+                    <p><a href="#"> THE ARCANIX </a></p>
+                </diV>
+                <!-- NAVIGATION -->
+                <div class="header_navigation">
+                    <P><a> HOME  </a>
+                       <a> BERI </a>
+                       <a> BRRAP </a>
+                       <a> CURSED </a>
+                    </p>
+                </div>
+                <!-- BUTTONS -->
+                <div class="header_buttons">
+                    <P>
+                        <a class="login" href="#"> LOGIN </a>
+                        <a class="signup" href="#"> SIGNUP </a>
+                    </p>
+                </div>
+            </header>
+        </div> <!--  END  -->
+
+        <!-- START OF MAIN  -->
+        <div class="main">
+            <div class="sectionOne">
+                <p>Image Slider</p>
+                <div class="imageSlider">
+                    <img src="https://picsum.photos/id/220/700/300" alt="" class="sliderImages">
+                    <img src="https://picsum.photos/id/247/700/300" alt="" class="sliderImages">
+                    <img src="https://picsum.photos/id/257/700/300" alt="" class="sliderImages">
+                    <div class="imageButtons">
+                        <button onclick="prevImage()" class="prevButton"><i class="fas fa-chevron-left"></i></button>
+                        <button onclick="nextImage()"  class="nextButton"><i class="fas fa-chevron-right"></i></button>
+        
+                        <!-- Linking Script Files  -->
+                        <script src="../script/mainFuntions.js"></script>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
