@@ -72,6 +72,8 @@ body::-webkit-scrollbar-track {
     transition:  0.2s ease-out;
     padding: 5px 20px;
     border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .header_navigation a:hover {
