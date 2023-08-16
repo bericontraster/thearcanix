@@ -64,8 +64,23 @@
                     </div> 
                 </div>
             </div> <!-- END OF SECTION ONE -->
+
             <div class="sectionTwo">
-                <p>Zero & Ones</p>
+                <p>Trendings</p>
+                <div class="section-one-container-one">
+                    <div class="c-one-column-one">
+                        <?php
+                        $name = "Alice";
+                        echo "<p>Hello, $name!</p>";
+                        ?>
+                    </div>
+                    <div class="c-one-column-two">
+                        TWO
+                    </div>
+                    <div class="c-one-column-three">
+                        THREE
+                    </div>
+                </div>
             </div>
         </div> <!-- END OF MAIN -->
     </body>

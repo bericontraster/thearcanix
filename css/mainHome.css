@@ -67,17 +67,46 @@
 /* -----------------------------------TWO-------------------------------- */
 
 .sectionTwo {
-    /* -webkit-filter: brightness(50%); */
-    /* filter: brightness(50%); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    /* background-color: orange; */
     position: relative;
-    background-position: center;
     top: 100px;
     height: 900px;
-    /* border-top: 1px solid white; */
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .sectionTwo p {
     text-align: center;
+}
+
+.section-one-container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.c-one-column-one, .c-one-column-two, .c-one-column-three {
+    border-radius: 5px;
+    height: 300px;
+    background-color: black;
+}
+
+.c-one-column-one {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.c-one-column-two {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.c-one-column-three {
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* SECTION ONE BLOCK TEXT DESIGN */
+.c-one-column-one, .c-one-column-two, .c-one-column-three, p {
+    color: white;
 }
