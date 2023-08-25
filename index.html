@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html>
-
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Kanit:wght@100&family=Manrope:wght@600&family=Phudu&family=Poppins&family=Roboto:wght@100;400&family=Rubik:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>The Arcanix</title>
-        <link rel="icon" type="image/x-icon" href="../media/arcanix_favicon.png">
-    </head>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Kanit:wght@100&family=Manrope:wght@600&family=Phudu&family=Poppins&family=Roboto:wght@100;400&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Arcanix</title>
+    <link rel="icon" type="image/x-icon" href="../media/arcanix_favicon.png">
     <style>
         body {
-            -webkit-user-select: none; /* Safari */
-            -ms-user-select: none; /* IE 10 and IE 11 */
-            user-select: none; /* Standard syntax */
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
-        h1:hover {
-            color: red;
+        h1 {
+            font-family: 'Phudu', cursive;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        strong {
+            color: lightblue;
+        }
+
+        h3 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 400;
+            font-size: 30px;
+            margin-top: 70px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            height: auto;
+            max-width: 100%;
         }
 
         .fa-twitter {
@@ -26,15 +52,25 @@
             font-size: 20px;
             margin-left: 5px;
         }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+                margin-top: 30px;
+            }
+
+            h3 {
+                font-size: 25px;
+                margin-top: 50px;
+            }
+        }
     </style>
-
-    <body style="background-color: black; color: white; text-align: center;">
-        <h1 style="font-family: 'Phudu', cursive; font-size: 50px; margin-top: 50px;">Welcome Reader! </h1>
-        <p style="font-family: 'Courier New', Courier, monospace;"><strong>Arcanix</strong>, <br>a digital haven where the curious meet the knowledgeable,<br> and mysteries are unravelled with every keystroke.</p>
-        <h3 style="margin-top: 70px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 400;  font-size: 30px; margin-bottom: 10px;">COMING SOON</h3>
-        <img src="../media/backg.gif" alt="cooming soon image" style="height: 250px; width: 400px;">
-        <p style="font-family: 'Courier New', Courier, monospace;">Follow on <a href="https://twitter.com/thearcanix?s=20" class="fa fa-twitter" target="_blank"></a></p>
-    </body>
-
-    <!-- Made with ❤️ by Arcanes ©️ Arcanix -->
+</head>
+<body>
+    <h1>Welcome Reader!</h1>
+    <p><strong>Arcanix</strong>, <br>a digital haven where the curious meet the knowledgeable,<br> and mysteries are unravelled with every keystroke.</p>
+    <h3>COMING SOON</h3>
+    <img src="../media/backg.gif" alt="coming soon image">
+    <p>Follow on <a href="https://twitter.com/thearcanix?s=20" class="fa fa-twitter" target="_blank"></a></p>
+</body>
 </html>
